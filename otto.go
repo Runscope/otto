@@ -1,10 +1,10 @@
 /*
 Package otto is a JavaScript parser and interpreter written natively in Go.
 
-http://godoc.org/github.com/robertkrimen/otto
+http://godoc.org/github.com/Runscope/otto
 
     import (
-        "github.com/robertkrimen/otto"
+        "github.com/Runscope/otto"
     )
 
 Run something in the VM
@@ -81,7 +81,7 @@ Parser
 
 A separate parser is available in the parser package if you're just interested in building an AST.
 
-http://godoc.org/github.com/robertkrimen/otto/parser
+http://godoc.org/github.com/Runscope/otto/parser
 
 Parse and return an AST
 
@@ -105,9 +105,9 @@ Parse and return an AST
 
 otto
 
-You can run (Go) JavaScript from the commandline with: http://github.com/robertkrimen/otto/tree/master/otto
+You can run (Go) JavaScript from the commandline with: http://github.com/Runscope/otto/tree/master/otto
 
-	$ go get -v github.com/robertkrimen/otto/otto
+	$ go get -v github.com/Runscope/otto/otto
 
 Run JavaScript by entering some source on stdin or by giving otto a filename:
 
@@ -118,13 +118,13 @@ underscore
 Optionally include the JavaScript utility-belt library, underscore, with this import:
 
 	import (
-		"github.com/robertkrimen/otto"
-		_ "github.com/robertkrimen/otto/underscore"
+		"github.com/Runscope/otto"
+		_ "github.com/Runscope/otto/underscore"
 	)
 
 	// Now every otto runtime will come loaded with underscore
 
-For more information: http://github.com/robertkrimen/otto/tree/master/underscore
+For more information: http://github.com/Runscope/otto/tree/master/underscore
 
 Caveat Emptor
 
@@ -164,7 +164,7 @@ If you want to stop long running executions (like third-party code), you can use
         "os"
         "time"
 
-        "github.com/robertkrimen/otto"
+        "github.com/Runscope/otto"
     )
 
     var halt = errors.New("Stahp")
@@ -211,7 +211,7 @@ It would not be difficult to provide something like these via Go, but you probab
 
 For an example of how this could be done in Go with otto, see natto:
 
-http://github.com/robertkrimen/natto
+http://github.com/Runscope/natto
 
 Here is some more discussion of the issue:
 
