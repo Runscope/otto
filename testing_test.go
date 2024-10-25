@@ -1,7 +1,7 @@
 package otto
 
 import (
-	"./terst"
+	"github.com/Runscope/otto/terst"
 	"errors"
 	"strings"
 	"testing"

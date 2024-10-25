@@ -1,7 +1,7 @@
 package parser
 
 import (
-	"../terst"
+	"github.com/Runscope/otto/terst"
 	"testing"
 
 	"github.com/Runscope/otto/file"
